@@ -16,6 +16,7 @@ Script by \e[33mAlienkrishn
 tauth="/data/data/com.termux/files/home/.config/truecallerjs"
 if [[ -d "/data/data/com.termux/files/home/.config/truecallerjs" ]]; then
     echo -e "existing directory found removing it"
+    sleep 3
     rm -rf /data/data/com.termux/files/home/.config/truecallerjs
 else
     echo -e "\e[32;1m--Installing requirements"
