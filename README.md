@@ -6,7 +6,7 @@ Truecaller api based numosint script without login
 ## Installation 
 > just copy and paste bellow command in your termux
 ```
-https://raw.githubusercontent.com/Anon4You/NumOsint/main/numosint.sh | bash
+curl -sSL https://raw.githubusercontent.com/Anon4You/NumOsint/main/numosint.sh | bash
 ```
 * use vpn if cousing error while installation
 
