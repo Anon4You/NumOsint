@@ -43,8 +43,13 @@ cat > $tauth/authkey.json <<- EOF
    ]
 }
 EOF
-curl -LO https://raw.githubusercontent.com/Anon4You/NumOsint/main/lib/xcx && mv xcx numosint && mv numosint $PATH
-chmod 777 $PATH/numosint
+cat > $PATH/numosint <<- EOF
+cfonts numosint | lolcat
+echo Truecaller api on termux
+echo Author : Alienkrishn
+read -p "Enter Number : " num
+truecallerjs -s \$num
+EOF
 clear
 echo -e "installed succesfuly now launch it by typing\n\e[32;1m numosint\e[0m from any directory"
 
