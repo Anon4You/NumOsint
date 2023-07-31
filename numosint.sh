@@ -23,6 +23,10 @@ else
     apt install nodejs -y
     npm install -g truecallerjs
 fi
+if hash ! toilet > /dev/null 2>&1 ; then
+echo -e "\e[32m Installing other requirements..."
+apt install -y toilet figlet 
+fi
 echo -e "writting json file for login"
 sleep 3
 mkdir -p /data/data/com.termux/files/home/.config/truecallerjs
@@ -44,12 +48,13 @@ cat > $tauth/authkey.json <<- EOF
 }
 EOF
 cat > $PATH/numosint <<- EOF
-cfonts numosint | lolcat
+figlet -f smblock numosint | lolcat
 echo Truecaller api on termux
 echo Author : Alienkrishn
 read -p "Enter Number : " num
 truecallerjs -s \$num
 EOF
+chmod 777 $PATH/numosint
 clear
 echo -e "installed succesfuly now launch it by typing\n\e[32;1m numosint\e[0m from any directory"
 
