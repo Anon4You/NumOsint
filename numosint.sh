@@ -3,6 +3,7 @@
 # copy krne se kuch nhi sikhoge khud ka dimag v istemaal kr le
 # module in used - truecallerjs by Sumithemmadi
 #
+
 printf "\a\a\e[32;1m
                 ▗    ▐
 ▛▀▖▌ ▌▛▚▀▖▞▀▖▞▀▘▄ ▛▀▖▜▀
@@ -34,18 +35,18 @@ cat > $tauth/authkey.json <<- EOF
 {
    "status": 2,
    "message": "Verified",
-   "installationId": "a1i0J--gz5GL4FZVHFKyldww_XuagVvqfWQmqwQOC0TUVaQy99KTy1IKs6u4vX4X",
+   "installationId": "a1i08--iITe08V7-uHTRt_NzOfIcsi_1ddALfLZai3knO6atEcZX1Ty4Q6zMS3ln",
    "ttl": 259200,
-   "userId": 12662406846417184,
+   "userId": 13033518513127936,
    "suspended": false,
    "phones": [
       {
-         "phoneNumber": 917863901422,
+         "phoneNumber": 919832647808,
          "countryCode": "IN",
          "priority": 1
       }
-   ]
-}
+   ] }
+   
 EOF
 cat > $PATH/numosint <<- EOF
 figlet -f smblock numosint | lolcat
