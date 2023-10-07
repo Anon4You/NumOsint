@@ -1,0 +1,15 @@
+{
+   "status": 2,
+   "message": "Verified",
+   "installationId": "a1i08--iITe08V7-uHTRt_NzOfIcsi_1ddALfLZai3knO6atEcZX1Ty4Q6zMS3ln",
+   "ttl": 259200,
+   "userId": 13033518513127936,
+   "suspended": false,
+   "phones": [
+      {
+         "phoneNumber": 919832647808,
+         "countryCode": "IN",
+         "priority": 1
+      }
+   ]
+}
