@@ -14,6 +14,7 @@ printf "\a\a\e[32;1m
 Script by \e[33mAlienkrishn
 \e[0m
 "
+apt install python -y && pip install lolcat
 tauth="/data/data/com.termux/files/home/.config/truecallerjs"
 if [[ -d "/data/data/com.termux/files/home/.config/truecallerjs" ]]; then
     echo -e "existing directory found removing it"
